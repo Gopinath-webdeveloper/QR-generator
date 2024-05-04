@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+p{
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.app-container h1{
+ color:red;
+}
+/* .background-img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.qr-code-image{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: blue;
+    font-size: 15px;
+   font-weight: 500;
+}
+
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate{
+   background-color: #3498db;
+}
+.generate:hover{
+    background-color: blue;
+}
+.generate:disabled{
+    background-color: #fff;
+    cursor: not-allowed;
+}
+.download
+{
+    background-color: #27ae60;
+    margin-left: 10px;
+}
+.download:hover{
+    background-color: green;
+}
+
+.app-container h1{
+font-weight: 600;
+color: #3498db;
+border-bottom: 1px solid hsl(0, 39%, 91%) ;
+padding: 10px 0px ;
+}
